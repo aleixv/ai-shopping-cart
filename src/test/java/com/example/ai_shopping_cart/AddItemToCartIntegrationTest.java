@@ -54,6 +54,6 @@ public class AddItemToCartIntegrationTest {
         Cart obtainedCart = cartRepository.findById(cartId).orElse(null);
         assertNotNull(obtainedCart);
         List<CartItem> items = obtainedCart.getItems();
-  System.out.println(items.size());
+    System.out.println(items.size());
     }
 }
