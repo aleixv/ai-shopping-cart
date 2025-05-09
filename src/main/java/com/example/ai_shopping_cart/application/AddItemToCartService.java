@@ -23,7 +23,7 @@ public class AddItemToCartService {
             return cartRepository.save(newCart);
         });
 
-        CartItem cartItem = new CartItem(productId, name, price, quantity);
+        CartItem cartItem = new CartItem(productId, name, price, quantity, cart);
         cart.addItem(cartItem);
 
         cartRepository.save(cart);
