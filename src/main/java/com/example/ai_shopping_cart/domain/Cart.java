@@ -4,7 +4,6 @@ import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
-import org.hibernate.annotations.Type;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,7 +13,6 @@ public class Cart {
     @Id
     @GeneratedValue
     @Column(name = "cart_id")
-    @Type(type = "uuid-char")
     private String cartId;
     private List<CartItem> items;
 
