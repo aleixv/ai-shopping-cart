@@ -12,8 +12,6 @@ import java.util.UUID;
 
 @Entity
 public class Cart {
-    @Id
-    @GeneratedValue
     private CartId cartId;
     private List<CartItem> items;
 
