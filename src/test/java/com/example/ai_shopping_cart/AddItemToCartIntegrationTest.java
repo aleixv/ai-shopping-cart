@@ -1,7 +1,5 @@
 package com.example.ai_shopping_cart;
 
-import com.example.ai_shopping_cart.domain.Cart;
-import com.example.ai_shopping_cart.infrastructure.CartRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
