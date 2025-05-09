@@ -3,6 +3,7 @@ package com.example.ai_shopping_cart.domain;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 import java.util.ArrayList;
@@ -11,10 +12,13 @@ import java.util.List;
 @Entity
 public class Cart {
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "cart_id")
     private Long cartId;
     private List<CartItem> items;
+
+    public Cart() {
+    }
 
     public Cart(Long cartId) {
         this.cartId = cartId;
