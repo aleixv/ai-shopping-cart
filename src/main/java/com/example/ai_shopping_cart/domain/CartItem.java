@@ -13,7 +13,7 @@ import java.util.UUID;
 @Entity
 public class CartItem {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
     private UUID productId;
     private String name;
