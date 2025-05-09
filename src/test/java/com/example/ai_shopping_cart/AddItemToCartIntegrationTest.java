@@ -46,7 +46,7 @@ public class AddItemToCartIntegrationTest {
         ResponseEntity<String> response = restTemplate.postForEntity("/cart/items", itemDTO, String.class);
 
         // Then
-        assertEquals(HttpStatus.OK, response.getStatusCode());
+        assertEquals(200, response.getStatusCodeValue());
         assertEquals("Item added to cart", response.getBody());
 
         Cart cart = cartRepository.findById(cartId).orElse(null);
