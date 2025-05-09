@@ -14,6 +14,13 @@ The purpose of this project is to demonstrate a basic implementation of a shoppi
 2.  Navigate to the project directory.
 3.  Run the application using the command: `./gradlew bootRun`
 
+## How to Run with Docker
+
+1.  Clone the repository to your local machine.
+2.  Navigate to the project directory.
+3.  Build the Docker image: `docker build -t ai-shopping-cart .`
+4.  Run the Docker container: `docker run -p 8080:8080 ai-shopping-cart`
+
 The project structure is organized as follows:
 
 -   `src/main/java/com/example/ai_shopping_cart/domain`: Contains the domain entities, value objects, and domain services.
