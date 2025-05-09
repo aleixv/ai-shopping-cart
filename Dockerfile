@@ -2,7 +2,7 @@ FROM openjdk:17-jdk-slim
 
 WORKDIR /app
 
-COPY build.gradle settings.gradle gradle.properties ./
+COPY build.gradle settings.gradle gradle.properties gradlew gradlew.bat ./
 COPY src ./src
 
 RUN ./gradlew bootJar
