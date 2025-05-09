@@ -11,7 +11,6 @@ import java.util.UUID;
 @Entity
 public class CartItem {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private UUID productId;
     private String name;
