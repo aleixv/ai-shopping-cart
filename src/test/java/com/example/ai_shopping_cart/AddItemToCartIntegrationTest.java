@@ -30,6 +30,8 @@ public class AddItemToCartIntegrationTest {
     public void testAddItemToCart() {
         // Given
         Long cartId = 123L;
+         Cart cart = new Cart(cartId);
+        cartRepository.save(cart);
         UUID productId = UUID.randomUUID();
         String itemName = "Test Item";
         double itemPrice = 10.0;
