@@ -1,9 +1,8 @@
 package com.example.ai_shopping_cart.domain;
 
 import jakarta.persistence.Column;
-import jakarta.persistence.Embeddable;
-import jakarta.persistence.EmbeddedId;
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 
 import java.util.ArrayList;
@@ -12,16 +11,17 @@ import java.util.UUID;
 
 @Entity
 public class Cart {
-    @EmbeddedId
-    private CartId cartId;
+    @Id
+    @GeneratedValue
+    private UUID cartId;
     private List<CartItem> items;
 
-    public Cart(CartId cartId) {
+    public Cart(UUID cartId) {
         this.cartId = cartId;
         this.items = new ArrayList<>();
     }
 
-    public CartId getCartId() {
+    public UUID getCartId() {
         return cartId;
     }
 
@@ -41,21 +41,4 @@ public class Cart {
         return items.stream().mapToDouble(item -> item.getPrice() * item.getQuantity()).sum();
     }
 
-    @Embeddable
-    public static class CartId {
-        @Id
-        @Column(name = "cart_id")
-        private UUID id;
-
-        public CartId(UUID id) {
-            this.id = id;
-        }
-
-        public CartId() {
-        }
-
-        public UUID getId() {
-            return id;
-        }
-    }
 }

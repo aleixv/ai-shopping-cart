@@ -19,7 +19,7 @@ public class AddItemToCartService {
 
     public void addItemToCart(UUID cartId, UUID productId, String name, double price, int quantity) {
         Cart cart = cartRepository.findById(cartId).orElseGet(() -> {
-            Cart newCart = new Cart(new Cart.CartId(cartId));
+            Cart newCart = new Cart(cartId);
             return cartRepository.save(newCart);
         });
 
