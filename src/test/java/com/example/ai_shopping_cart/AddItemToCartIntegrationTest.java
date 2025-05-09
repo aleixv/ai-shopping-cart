@@ -17,7 +17,7 @@ import org.testcontainers.junit.jupiter.Testcontainers;
 public class AddItemToCartIntegrationTest {
 
     @Container
-    static PostgreSQLContainer<?> postgreSQLContainer = new PostgreSQLContainer<>("postgres:16.3-alpine");
+    static PostgreSQLContainer<?> postgreSQLContainer = new PostgreSQLContainer<>("postgres:16.3-alpine")
 
     @DynamicPropertySource
     static void postgreSQLProperties(DynamicPropertyRegistry registry) {
