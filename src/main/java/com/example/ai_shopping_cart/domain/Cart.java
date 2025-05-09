@@ -15,7 +15,6 @@ public class Cart {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "cart_id")
     private Long cartId;
-    @Entity
     private List<CartItem> items;
 
     public Cart() {
