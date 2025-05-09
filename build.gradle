@@ -11,7 +11,7 @@ sourceCompatibility = '17'
 
 repositories {
 	mavenCentral()
-    mavenCentral()
+    jcenter()
 }
 
 dependencies {
