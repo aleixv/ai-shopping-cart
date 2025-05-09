@@ -13,6 +13,7 @@ import java.util.UUID;
 public class Cart {
     @Id
     @GeneratedValue
+    @Column(name = "cart_id")
     private UUID cartId;
     private List<CartItem> items;
 
