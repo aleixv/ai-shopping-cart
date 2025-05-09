@@ -8,6 +8,12 @@ The purpose of this project is to demonstrate a basic implementation of a shoppi
 
 ## Contents
 
+## How to Run Locally
+
+1.  Clone the repository to your local machine.
+2.  Navigate to the project directory.
+3.  Run the application using the command: `./gradlew bootRun`
+
 The project structure is organized as follows:
 
 -   `src/main/java/com/example/ai_shopping_cart/domain`: Contains the domain entities, value objects, and domain services.
