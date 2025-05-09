@@ -51,6 +51,9 @@ public class Cart {
             this.id = id;
         }
 
+        public CartId() {
+        }
+
         public UUID getId() {
             return id;
         }
