@@ -22,7 +22,5 @@ services:
       SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/shopping_cart
       SPRING_DATASOURCE_USERNAME: cart_user
       SPRING_DATASOURCE_PASSWORD: cart_password
-    depends_on:
-      - db
 volumes:
   db_data:
