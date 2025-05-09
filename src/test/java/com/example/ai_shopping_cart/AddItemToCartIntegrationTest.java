@@ -26,5 +26,4 @@ public class AddItemToCartIntegrationTest {
     @Autowired
     private CartRepository cartRepository;
 
-     @Test
-    public void testAddItemToCart() {}
+  
