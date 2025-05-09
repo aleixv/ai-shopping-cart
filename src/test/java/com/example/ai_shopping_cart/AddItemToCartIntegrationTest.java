@@ -54,7 +54,7 @@ public class AddItemToCartIntegrationTest {
         List<CartItem> items = cart.getItems();
         assertEquals(1, items.size());
         CartItem cartItem = items.get(0);
-        assertEquals(productId, cartItem.getProductId().getId());
+        assertEquals(productId, cartItem.getProductId());
         assertEquals(itemName, cartItem.getName());
         assertEquals(itemPrice, cartItem.getPrice());
         assertEquals(quantity, cartItem.getQuantity());
