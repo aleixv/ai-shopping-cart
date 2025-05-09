@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.ai_shopping_cart.AddItemToCartIntegrationTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2025-05-09T07:58:06.885Z" hostname="Aleixs-MacBook-Pro.local" time="0.002">
+<testsuite name="com.example.ai_shopping_cart.AddItemToCartIntegrationTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2025-05-09T07:58:56.968Z" hostname="Aleixs-MacBook-Pro.local" time="0.002">
   <properties/>
   <testcase name="testAddItemToCart()" classname="com.example.ai_shopping_cart.AddItemToCartIntegrationTest" time="0.002">
-    <failure message="java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@5724c7da testClass = com.example.ai_shopping_cart.AddItemToCartIntegrationTest, locations = [], classes = [com.example.ai_shopping_cart.AiShoppingCartApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceDescriptors = [], propertySourceProperties = [&quot;org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true&quot;, &quot;server.port=0&quot;], contextCustomizers = [org.springframework.boot.testcontainers.service.connection.ServiceConnectionContextCustomizer@0, org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@18c5069b, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@2a79d4b1, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2371aaca, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@b70da4c, org.springframework.boot.test.context.SpringBootTestAnnotation@1d7b7566], resourceBasePath = &quot;src/main/webapp&quot;, contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@5724c7da testClass = com.example.ai_shopping_cart.AddItemToCartIntegrationTest, locations = [], classes = [com.example.ai_shopping_cart.AiShoppingCartApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceDescriptors = [], propertySourceProperties = [&quot;org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true&quot;, &quot;server.port=0&quot;], contextCustomizers = [org.springframework.boot.testcontainers.service.connection.ServiceConnectionContextCustomizer@0, org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@18c5069b, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@2a79d4b1, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2371aaca, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@b70da4c, org.springframework.boot.test.context.SpringBootTestAnnotation@1d7b7566], resourceBasePath = &quot;src/main/webapp&quot;, contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+    <failure message="java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@4e647f39 testClass = com.example.ai_shopping_cart.AddItemToCartIntegrationTest, locations = [], classes = [com.example.ai_shopping_cart.AiShoppingCartApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceDescriptors = [], propertySourceProperties = [&quot;org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true&quot;, &quot;server.port=0&quot;], contextCustomizers = [org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@241e8ea6, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3bcbb589, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@6c45ee6e, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5911e990, org.springframework.boot.test.context.SpringBootTestAnnotation@8711ffe5], resourceBasePath = &quot;src/main/webapp&quot;, contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@4e647f39 testClass = com.example.ai_shopping_cart.AddItemToCartIntegrationTest, locations = [], classes = [com.example.ai_shopping_cart.AiShoppingCartApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceDescriptors = [], propertySourceProperties = [&quot;org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true&quot;, &quot;server.port=0&quot;], contextCustomizers = [org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@241e8ea6, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3bcbb589, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@6c45ee6e, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5911e990, org.springframework.boot.test.context.SpringBootTestAnnotation@8711ffe5], resourceBasePath = &quot;src/main/webapp&quot;, contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:180)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130)
 	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:142)
@@ -88,7 +88,7 @@
 	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:72)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Embeddable class 'com.example.ai_shopping_cart.domain.Cart$CartId' may not have a property annotated '@Id' since it is used by 'com.example.ai_shopping_cart.domain.Cart.cartId' as an '@EmbeddedId'
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Could not determine recommended JdbcType for Java type 'com.example.ai_shopping_cart.domain.CartItem'
 	at app//org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
 	at app//org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
 	at app//org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
@@ -113,21 +113,20 @@ Caused by: org.springframework.beans.factory.BeanCreationException: Error creati
 	at app//org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:225)
 	at app//org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:152)
 	... 84 more
-Caused by: org.hibernate.AnnotationException: Embeddable class 'com.example.ai_shopping_cart.domain.Cart$CartId' may not have a property annotated '@Id' since it is used by 'com.example.ai_shopping_cart.domain.Cart.cartId' as an '@EmbeddedId'
-	at app//org.hibernate.boot.model.internal.EmbeddableBinder.checkEmbeddedId(EmbeddableBinder.java:260)
-	at app//org.hibernate.boot.model.internal.EmbeddableBinder.bindEmbeddable(EmbeddableBinder.java:207)
-	at app//org.hibernate.boot.model.internal.EmbeddableBinder.createCompositeBinder(EmbeddableBinder.java:128)
-	at app//org.hibernate.boot.model.internal.PropertyBinder.bindBasic(PropertyBinder.java:1045)
-	at app//org.hibernate.boot.model.internal.PropertyBinder.bindProperty(PropertyBinder.java:890)
-	at app//org.hibernate.boot.model.internal.PropertyBinder.buildProperty(PropertyBinder.java:788)
-	at app//org.hibernate.boot.model.internal.PropertyBinder.processElementAnnotations(PropertyBinder.java:709)
-	at app//org.hibernate.boot.model.internal.EntityBinder.processIdPropertiesIfNotAlready(EntityBinder.java:1041)
-	at app//org.hibernate.boot.model.internal.EntityBinder.handleIdentifier(EntityBinder.java:357)
-	at app//org.hibernate.boot.model.internal.EntityBinder.bindEntityClass(EntityBinder.java:237)
-	at app//org.hibernate.boot.model.internal.AnnotationBinder.bindClass(AnnotationBinder.java:423)
-	at app//org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:256)
-	at app//org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:279)
-	at app//org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:322)
+Caused by: org.hibernate.type.descriptor.java.spi.JdbcTypeRecommendationException: Could not determine recommended JdbcType for Java type 'com.example.ai_shopping_cart.domain.CartItem'
+	at app//org.hibernate.type.descriptor.java.spi.UnknownBasicJavaType.getRecommendedJdbcType(UnknownBasicJavaType.java:37)
+	at app//org.hibernate.type.descriptor.java.spi.BasicCollectionJavaType.getRecommendedJdbcType(BasicCollectionJavaType.java:73)
+	at app//org.hibernate.boot.model.process.internal.InferredBasicValueResolver.from(InferredBasicValueResolver.java:195)
+	at app//org.hibernate.mapping.BasicValue.resolution(BasicValue.java:642)
+	at app//org.hibernate.mapping.BasicValue.buildResolution(BasicValue.java:493)
+	at app//org.hibernate.mapping.BasicValue.resolve(BasicValue.java:345)
+	at app//org.hibernate.mapping.BasicValue.resolve(BasicValue.java:335)
+	at app//org.hibernate.boot.internal.InFlightMetadataCollectorImpl.lambda$processValueResolvers$4(InFlightMetadataCollectorImpl.java:1800)
+	at java.base@21.0.6/java.util.ArrayList.removeIf(ArrayList.java:1765)
+	at java.base@21.0.6/java.util.ArrayList.removeIf(ArrayList.java:1743)
+	at app//org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processValueResolvers(InFlightMetadataCollectorImpl.java:1799)
+	at app//org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1785)
+	at app//org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:332)
 	at app//org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1432)
 	at app//org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1503)
 	at app//org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
@@ -140,8 +139,8 @@ Caused by: org.hibernate.AnnotationException: Embeddable class 'com.example.ai_s
 	... 106 more
 </failure>
   </testcase>
-  <system-out><![CDATA[09:58:04.663 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.ai_shopping_cart.AddItemToCartIntegrationTest]: AddItemToCartIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-09:58:04.721 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.ai_shopping_cart.AiShoppingCartApplication for test class com.example.ai_shopping_cart.AddItemToCartIntegrationTest
+  <system-out><![CDATA[09:58:54.869 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.ai_shopping_cart.AddItemToCartIntegrationTest]: AddItemToCartIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:58:54.908 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.ai_shopping_cart.AiShoppingCartApplication for test class com.example.ai_shopping_cart.AddItemToCartIntegrationTest
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -151,21 +150,21 @@ Caused by: org.hibernate.AnnotationException: Embeddable class 'com.example.ai_s
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.2.5)
 
-2025-05-09T09:58:04.893+02:00  INFO 11421 --- [    Test worker] c.e.a.AddItemToCartIntegrationTest       : Starting AddItemToCartIntegrationTest using Java 21.0.6 with PID 11421 (started by averges in /Users/averges/ai-shopping-cart)
-2025-05-09T09:58:04.894+02:00  INFO 11421 --- [    Test worker] c.e.a.AddItemToCartIntegrationTest       : No active profile set, falling back to 1 default profile: "default"
-2025-05-09T09:58:05.090+02:00  INFO 11421 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-05-09T09:58:05.108+02:00  INFO 11421 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interface.
-2025-05-09T09:58:05.421+02:00  INFO 11421 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
-2025-05-09T09:58:05.431+02:00  INFO 11421 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-05-09T09:58:05.432+02:00  INFO 11421 --- [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
-2025-05-09T09:58:05.460+02:00  INFO 11421 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-05-09T09:58:05.461+02:00  INFO 11421 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 557 ms
-2025-05-09T09:58:05.537+02:00  INFO 11421 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-05-09T09:58:05.568+02:00  INFO 11421 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2025-05-09T09:58:05.588+02:00  INFO 11421 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-05-09T09:58:05.692+02:00  INFO 11421 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-05-09T09:58:05.705+02:00  INFO 11421 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-05-09T09:58:06.732+02:00 ERROR 11421 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+2025-05-09T09:58:55.065+02:00  INFO 11639 --- [    Test worker] c.e.a.AddItemToCartIntegrationTest       : Starting AddItemToCartIntegrationTest using Java 21.0.6 with PID 11639 (started by averges in /Users/averges/ai-shopping-cart)
+2025-05-09T09:58:55.066+02:00  INFO 11639 --- [    Test worker] c.e.a.AddItemToCartIntegrationTest       : No active profile set, falling back to 1 default profile: "default"
+2025-05-09T09:58:55.240+02:00  INFO 11639 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-09T09:58:55.254+02:00  INFO 11639 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interface.
+2025-05-09T09:58:55.548+02:00  INFO 11639 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
+2025-05-09T09:58:55.555+02:00  INFO 11639 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-09T09:58:55.555+02:00  INFO 11639 --- [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2025-05-09T09:58:55.583+02:00  INFO 11639 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-09T09:58:55.583+02:00  INFO 11639 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 507 ms
+2025-05-09T09:58:55.647+02:00  INFO 11639 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-09T09:58:55.671+02:00  INFO 11639 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-05-09T09:58:55.688+02:00  INFO 11639 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-09T09:58:55.788+02:00  INFO 11639 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-09T09:58:55.800+02:00  INFO 11639 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-09T09:58:56.824+02:00 ERROR 11639 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
 
 org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:346) ~[postgresql-42.7.3.jar:42.7.3]
@@ -322,7 +321,7 @@ Caused by: java.net.ConnectException: Connection refused
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:262) ~[postgresql-42.7.3.jar:42.7.3]
 	... 140 common frames omitted
 
-2025-05-09T09:58:06.758+02:00  WARN 11421 --- [    Test worker] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
+2025-05-09T09:58:56.856+02:00  WARN 11639 --- [    Test worker] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
 
 java.lang.NullPointerException: Cannot invoke "org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(java.sql.SQLException, String)" because the return value of "org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.sqlExceptionHelper()" is null
 	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
@@ -453,16 +452,16 @@ java.lang.NullPointerException: Cannot invoke "org.hibernate.engine.jdbc.spi.Sql
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69) ~[gradle-worker.jar:na]
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74) ~[gradle-worker.jar:na]
 
-2025-05-09T09:58:06.787+02:00  WARN 11421 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-05-09T09:58:06.861+02:00 ERROR 11421 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: Embeddable class 'com.example.ai_shopping_cart.domain.Cart$CartId' may not have a property annotated '@Id' since it is used by 'com.example.ai_shopping_cart.domain.Cart.cartId' as an '@EmbeddedId'
-2025-05-09T09:58:06.861+02:00  WARN 11421 --- [    Test worker] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Embeddable class 'com.example.ai_shopping_cart.domain.Cart$CartId' may not have a property annotated '@Id' since it is used by 'com.example.ai_shopping_cart.domain.Cart.cartId' as an '@EmbeddedId'
-2025-05-09T09:58:06.862+02:00  INFO 11421 --- [    Test worker] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2025-05-09T09:58:06.868+02:00  INFO 11421 --- [    Test worker] .s.b.a.l.ConditionEvaluationReportLogger : 
+2025-05-09T09:58:56.868+02:00  WARN 11639 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-09T09:58:56.945+02:00 ERROR 11639 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: Could not determine recommended JdbcType for Java type 'com.example.ai_shopping_cart.domain.CartItem'
+2025-05-09T09:58:56.946+02:00  WARN 11639 --- [    Test worker] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Could not determine recommended JdbcType for Java type 'com.example.ai_shopping_cart.domain.CartItem'
+2025-05-09T09:58:56.947+02:00  INFO 11639 --- [    Test worker] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-05-09T09:58:56.952+02:00  INFO 11639 --- [    Test worker] .s.b.a.l.ConditionEvaluationReportLogger : 
 
 Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2025-05-09T09:58:06.876+02:00 ERROR 11421 --- [    Test worker] o.s.boot.SpringApplication               : Application run failed
+2025-05-09T09:58:56.959+02:00 ERROR 11639 --- [    Test worker] o.s.boot.SpringApplication               : Application run failed
 
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Embeddable class 'com.example.ai_shopping_cart.domain.Cart$CartId' may not have a property annotated '@Id' since it is used by 'com.example.ai_shopping_cart.domain.Cart.cartId' as an '@EmbeddedId'
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Could not determine recommended JdbcType for Java type 'com.example.ai_shopping_cart.domain.CartItem'
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786) ~[spring-beans-6.1.6.jar:6.1.6]
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.6.jar:6.1.6]
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.6.jar:6.1.6]
@@ -570,21 +569,20 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:72) ~[na:na]
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69) ~[gradle-worker.jar:na]
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74) ~[gradle-worker.jar:na]
-Caused by: org.hibernate.AnnotationException: Embeddable class 'com.example.ai_shopping_cart.domain.Cart$CartId' may not have a property annotated '@Id' since it is used by 'com.example.ai_shopping_cart.domain.Cart.cartId' as an '@EmbeddedId'
-	at org.hibernate.boot.model.internal.EmbeddableBinder.checkEmbeddedId(EmbeddableBinder.java:260) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
-	at org.hibernate.boot.model.internal.EmbeddableBinder.bindEmbeddable(EmbeddableBinder.java:207) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
-	at org.hibernate.boot.model.internal.EmbeddableBinder.createCompositeBinder(EmbeddableBinder.java:128) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
-	at org.hibernate.boot.model.internal.PropertyBinder.bindBasic(PropertyBinder.java:1045) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
-	at org.hibernate.boot.model.internal.PropertyBinder.bindProperty(PropertyBinder.java:890) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
-	at org.hibernate.boot.model.internal.PropertyBinder.buildProperty(PropertyBinder.java:788) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
-	at org.hibernate.boot.model.internal.PropertyBinder.processElementAnnotations(PropertyBinder.java:709) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
-	at org.hibernate.boot.model.internal.EntityBinder.processIdPropertiesIfNotAlready(EntityBinder.java:1041) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
-	at org.hibernate.boot.model.internal.EntityBinder.handleIdentifier(EntityBinder.java:357) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
-	at org.hibernate.boot.model.internal.EntityBinder.bindEntityClass(EntityBinder.java:237) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
-	at org.hibernate.boot.model.internal.AnnotationBinder.bindClass(AnnotationBinder.java:423) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
-	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:256) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:279) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:322) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+Caused by: org.hibernate.type.descriptor.java.spi.JdbcTypeRecommendationException: Could not determine recommended JdbcType for Java type 'com.example.ai_shopping_cart.domain.CartItem'
+	at org.hibernate.type.descriptor.java.spi.UnknownBasicJavaType.getRecommendedJdbcType(UnknownBasicJavaType.java:37) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.type.descriptor.java.spi.BasicCollectionJavaType.getRecommendedJdbcType(BasicCollectionJavaType.java:73) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.model.process.internal.InferredBasicValueResolver.from(InferredBasicValueResolver.java:195) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.mapping.BasicValue.resolution(BasicValue.java:642) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.mapping.BasicValue.buildResolution(BasicValue.java:493) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.mapping.BasicValue.resolve(BasicValue.java:345) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.mapping.BasicValue.resolve(BasicValue.java:335) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.lambda$processValueResolvers$4(InFlightMetadataCollectorImpl.java:1800) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at java.base/java.util.ArrayList.removeIf(ArrayList.java:1765) ~[na:na]
+	at java.base/java.util.ArrayList.removeIf(ArrayList.java:1743) ~[na:na]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processValueResolvers(InFlightMetadataCollectorImpl.java:1799) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1785) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:332) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1432) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1503) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.6.jar:6.1.6]
@@ -596,9 +594,9 @@ Caused by: org.hibernate.AnnotationException: Embeddable class 'com.example.ai_s
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-6.1.6.jar:6.1.6]
 	... 106 common frames omitted
 
-2025-05-09T09:58:06.881+02:00  WARN 11421 --- [    Test worker] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener] to prepare test instance [com.example.ai_shopping_cart.AddItemToCartIntegrationTest@3ad2883a]
+2025-05-09T09:58:56.963+02:00  WARN 11639 --- [    Test worker] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener] to prepare test instance [com.example.ai_shopping_cart.AddItemToCartIntegrationTest@778197c0]
 
-java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@5724c7da testClass = com.example.ai_shopping_cart.AddItemToCartIntegrationTest, locations = [], classes = [com.example.ai_shopping_cart.AiShoppingCartApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceDescriptors = [], propertySourceProperties = ["org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true", "server.port=0"], contextCustomizers = [org.springframework.boot.testcontainers.service.connection.ServiceConnectionContextCustomizer@0, org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@18c5069b, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@2a79d4b1, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2371aaca, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@b70da4c, org.springframework.boot.test.context.SpringBootTestAnnotation@1d7b7566], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@4e647f39 testClass = com.example.ai_shopping_cart.AddItemToCartIntegrationTest, locations = [], classes = [com.example.ai_shopping_cart.AiShoppingCartApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceDescriptors = [], propertySourceProperties = ["org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true", "server.port=0"], contextCustomizers = [org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@241e8ea6, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3bcbb589, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@6c45ee6e, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5911e990, org.springframework.boot.test.context.SpringBootTestAnnotation@8711ffe5], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:180) ~[spring-test-6.1.6.jar:6.1.6]
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130) ~[spring-test-6.1.6.jar:6.1.6]
 	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:142) ~[spring-test-6.1.6.jar:6.1.6]
@@ -684,7 +682,7 @@ java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMerge
 	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:72) ~[na:na]
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69) ~[gradle-worker.jar:na]
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74) ~[gradle-worker.jar:na]
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Embeddable class 'com.example.ai_shopping_cart.domain.Cart$CartId' may not have a property annotated '@Id' since it is used by 'com.example.ai_shopping_cart.domain.Cart.cartId' as an '@EmbeddedId'
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Could not determine recommended JdbcType for Java type 'com.example.ai_shopping_cart.domain.CartItem'
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786) ~[spring-beans-6.1.6.jar:6.1.6]
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.6.jar:6.1.6]
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.6.jar:6.1.6]
@@ -709,21 +707,20 @@ Caused by: org.springframework.beans.factory.BeanCreationException: Error creati
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:225) ~[spring-test-6.1.6.jar:6.1.6]
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:152) ~[spring-test-6.1.6.jar:6.1.6]
 	... 84 common frames omitted
-Caused by: org.hibernate.AnnotationException: Embeddable class 'com.example.ai_shopping_cart.domain.Cart$CartId' may not have a property annotated '@Id' since it is used by 'com.example.ai_shopping_cart.domain.Cart.cartId' as an '@EmbeddedId'
-	at org.hibernate.boot.model.internal.EmbeddableBinder.checkEmbeddedId(EmbeddableBinder.java:260) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
-	at org.hibernate.boot.model.internal.EmbeddableBinder.bindEmbeddable(EmbeddableBinder.java:207) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
-	at org.hibernate.boot.model.internal.EmbeddableBinder.createCompositeBinder(EmbeddableBinder.java:128) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
-	at org.hibernate.boot.model.internal.PropertyBinder.bindBasic(PropertyBinder.java:1045) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
-	at org.hibernate.boot.model.internal.PropertyBinder.bindProperty(PropertyBinder.java:890) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
-	at org.hibernate.boot.model.internal.PropertyBinder.buildProperty(PropertyBinder.java:788) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
-	at org.hibernate.boot.model.internal.PropertyBinder.processElementAnnotations(PropertyBinder.java:709) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
-	at org.hibernate.boot.model.internal.EntityBinder.processIdPropertiesIfNotAlready(EntityBinder.java:1041) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
-	at org.hibernate.boot.model.internal.EntityBinder.handleIdentifier(EntityBinder.java:357) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
-	at org.hibernate.boot.model.internal.EntityBinder.bindEntityClass(EntityBinder.java:237) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
-	at org.hibernate.boot.model.internal.AnnotationBinder.bindClass(AnnotationBinder.java:423) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
-	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:256) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:279) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:322) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+Caused by: org.hibernate.type.descriptor.java.spi.JdbcTypeRecommendationException: Could not determine recommended JdbcType for Java type 'com.example.ai_shopping_cart.domain.CartItem'
+	at org.hibernate.type.descriptor.java.spi.UnknownBasicJavaType.getRecommendedJdbcType(UnknownBasicJavaType.java:37) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.type.descriptor.java.spi.BasicCollectionJavaType.getRecommendedJdbcType(BasicCollectionJavaType.java:73) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.model.process.internal.InferredBasicValueResolver.from(InferredBasicValueResolver.java:195) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.mapping.BasicValue.resolution(BasicValue.java:642) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.mapping.BasicValue.buildResolution(BasicValue.java:493) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.mapping.BasicValue.resolve(BasicValue.java:345) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.mapping.BasicValue.resolve(BasicValue.java:335) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.lambda$processValueResolvers$4(InFlightMetadataCollectorImpl.java:1800) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at java.base/java.util.ArrayList.removeIf(ArrayList.java:1765) ~[na:na]
+	at java.base/java.util.ArrayList.removeIf(ArrayList.java:1743) ~[na:na]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processValueResolvers(InFlightMetadataCollectorImpl.java:1799) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1785) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:332) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1432) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1503) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
 	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.6.jar:6.1.6]

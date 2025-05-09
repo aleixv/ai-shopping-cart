@@ -7,22 +7,21 @@ import jakarta.persistence.Id;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.UUID;
 
 @Entity
 public class Cart {
     @Id
     @GeneratedValue
     @Column(name = "cart_id")
-    private UUID cartId;
+    private String cartId;
     private List<CartItem> items;
 
-    public Cart(UUID cartId) {
+    public Cart(String cartId) {
         this.cartId = cartId;
         this.items = new ArrayList<>();
     }
 
-    public UUID getCartId() {
+    public String getCartId() {
         return cartId;
     }
 

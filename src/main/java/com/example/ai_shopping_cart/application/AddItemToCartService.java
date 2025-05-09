@@ -17,7 +17,7 @@ public class AddItemToCartService {
         this.cartRepository = cartRepository;
     }
 
-    public void addItemToCart(UUID cartId, UUID productId, String name, double price, int quantity) {
+    public void addItemToCart(String cartId, UUID productId, String name, double price, int quantity) {
         Cart cart = cartRepository.findById(cartId).orElseGet(() -> {
             Cart newCart = new Cart(cartId);
             return cartRepository.save(newCart);
