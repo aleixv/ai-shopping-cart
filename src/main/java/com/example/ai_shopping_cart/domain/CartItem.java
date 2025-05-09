@@ -23,6 +23,9 @@ public class CartItem {
     @JoinColumn(name = "cart_id")
     private Cart cart;
 
+    public CartItem() {
+    }
+
     public CartItem(UUID productId, String name, double price, int quantity, Cart cart) {
         this.productId = productId;
         this.name = name;
