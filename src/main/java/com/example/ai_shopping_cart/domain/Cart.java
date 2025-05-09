@@ -13,15 +13,15 @@ public class Cart {
     @Id
     @GeneratedValue
     @Column(name = "cart_id")
-    private String cartId;
+    private Long cartId;
     private List<CartItem> items;
 
-    public Cart(String cartId) {
+    public Cart(Long cartId) {
         this.cartId = cartId;
         this.items = new ArrayList<>();
     }
 
-    public String getCartId() {
+    public Long getCartId() {
         return cartId;
     }
 

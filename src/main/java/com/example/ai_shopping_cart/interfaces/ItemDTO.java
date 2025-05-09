@@ -3,17 +3,17 @@ package com.example.ai_shopping_cart.interfaces;
 import java.util.UUID;
 
 public class ItemDTO {
-    private String cartId;
+    private Long cartId;
     private UUID productId;
     private String name;
     private double price;
     private int quantity;
 
-    public String getCartId() {
+    public Long getCartId() {
         return cartId;
     }
 
-    public void setCartId(String cartId) {
+    public void setCartId(Long cartId) {
         this.cartId = cartId;
     }
 

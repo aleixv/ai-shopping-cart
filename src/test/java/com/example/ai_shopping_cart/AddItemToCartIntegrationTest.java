@@ -29,7 +29,7 @@ public class AddItemToCartIntegrationTest {
     @Test
     public void testAddItemToCart() {
         // Given
-        String cartId = UUID.randomUUID().toString();
+        Long cartId = 123L;
         UUID productId = UUID.randomUUID();
         String itemName = "Test Item";
         double itemPrice = 10.0;
