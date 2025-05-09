@@ -2,6 +2,7 @@ package com.example.ai_shopping_cart.domain;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Embeddable;
+import jakarta.persistence.EmbeddedId;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
@@ -11,6 +12,7 @@ import java.util.UUID;
 
 @Entity
 public class Cart {
+    @EmbeddedId
     private CartId cartId;
     private List<CartItem> items;
 
