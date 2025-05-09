@@ -52,6 +52,9 @@ public class AddItemToCartIntegrationTest {
         assertEquals("Item added to cart", response.getBody());
 
         Cart obtainedCart = cartRepository.findById(cartId).orElse(null);
+
+ System.out.println("Is the cart null?" + (obtainedCart == null));
+
         assertNotNull(obtainedCart);
         List<CartItem> items = obtainedCart.getItems();
     System.out.println(items.size());
