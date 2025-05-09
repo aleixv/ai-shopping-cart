@@ -1,10 +1,17 @@
 package com.example.ai_shopping_cart.domain;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
+@Entity
 public class Cart {
+    @Id
+    @GeneratedValue
     private CartId cartId;
     private List<CartItem> items;
 
