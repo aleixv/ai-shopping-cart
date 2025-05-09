@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.002s</div>
+<div class="counter">0.001s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,7 +79,7 @@
 <a name="testAddItemToCart()"></a>
 <h3 class="failures">testAddItemToCart()</h3>
 <span class="code">
-<pre>java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@4e647f39 testClass = com.example.ai_shopping_cart.AddItemToCartIntegrationTest, locations = [], classes = [com.example.ai_shopping_cart.AiShoppingCartApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceDescriptors = [], propertySourceProperties = [&quot;org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true&quot;, &quot;server.port=0&quot;], contextCustomizers = [org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@241e8ea6, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3bcbb589, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@6c45ee6e, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5911e990, org.springframework.boot.test.context.SpringBootTestAnnotation@8711ffe5], resourceBasePath = &quot;src/main/webapp&quot;, contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+<pre>java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@199806aa testClass = com.example.ai_shopping_cart.AddItemToCartIntegrationTest, locations = [], classes = [com.example.ai_shopping_cart.AiShoppingCartApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceDescriptors = [], propertySourceProperties = [&quot;org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true&quot;, &quot;server.port=0&quot;], contextCustomizers = [org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@241e8ea6, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3bcbb589, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@6c45ee6e, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5911e990, org.springframework.boot.test.context.SpringBootTestAnnotation@8711ffe5], resourceBasePath = &quot;src/main/webapp&quot;, contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:180)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130)
 	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:142)
@@ -230,7 +230,7 @@ Caused by: org.hibernate.type.descriptor.java.spi.JdbcTypeRecommendationExceptio
 </thead>
 <tr>
 <td class="failures">testAddItemToCart()</td>
-<td class="failures">0.002s</td>
+<td class="failures">0.001s</td>
 <td class="failures">failed</td>
 </tr>
 </table>
@@ -238,8 +238,8 @@ Caused by: org.hibernate.type.descriptor.java.spi.JdbcTypeRecommendationExceptio
 <div class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>10:00:20.711 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.ai_shopping_cart.AddItemToCartIntegrationTest]: AddItemToCartIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-10:00:20.758 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.ai_shopping_cart.AiShoppingCartApplication for test class com.example.ai_shopping_cart.AddItemToCartIntegrationTest
+<pre>10:03:05.592 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.ai_shopping_cart.AddItemToCartIntegrationTest]: AddItemToCartIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:03:05.634 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.ai_shopping_cart.AiShoppingCartApplication for test class com.example.ai_shopping_cart.AddItemToCartIntegrationTest
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -249,21 +249,21 @@ Caused by: org.hibernate.type.descriptor.java.spi.JdbcTypeRecommendationExceptio
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.2.5)
 
-2025-05-09T10:00:20.931+02:00  INFO 12063 --- [    Test worker] c.e.a.AddItemToCartIntegrationTest       : Starting AddItemToCartIntegrationTest using Java 21.0.6 with PID 12063 (started by averges in /Users/averges/ai-shopping-cart)
-2025-05-09T10:00:20.932+02:00  INFO 12063 --- [    Test worker] c.e.a.AddItemToCartIntegrationTest       : No active profile set, falling back to 1 default profile: &quot;default&quot;
-2025-05-09T10:00:21.122+02:00  INFO 12063 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-05-09T10:00:21.139+02:00  INFO 12063 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interface.
-2025-05-09T10:00:21.452+02:00  INFO 12063 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
-2025-05-09T10:00:21.460+02:00  INFO 12063 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-05-09T10:00:21.460+02:00  INFO 12063 --- [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
-2025-05-09T10:00:21.489+02:00  INFO 12063 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-05-09T10:00:21.490+02:00  INFO 12063 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 546 ms
-2025-05-09T10:00:21.569+02:00  INFO 12063 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-05-09T10:00:21.598+02:00  INFO 12063 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2025-05-09T10:00:21.615+02:00  INFO 12063 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-05-09T10:00:21.732+02:00  INFO 12063 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-05-09T10:00:21.744+02:00  INFO 12063 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-05-09T10:00:22.767+02:00 ERROR 12063 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+2025-05-09T10:03:05.793+02:00  INFO 12724 --- [    Test worker] c.e.a.AddItemToCartIntegrationTest       : Starting AddItemToCartIntegrationTest using Java 21.0.6 with PID 12724 (started by averges in /Users/averges/ai-shopping-cart)
+2025-05-09T10:03:05.794+02:00  INFO 12724 --- [    Test worker] c.e.a.AddItemToCartIntegrationTest       : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2025-05-09T10:03:05.991+02:00  INFO 12724 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-09T10:03:06.007+02:00  INFO 12724 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interface.
+2025-05-09T10:03:06.320+02:00  INFO 12724 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
+2025-05-09T10:03:06.328+02:00  INFO 12724 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-09T10:03:06.328+02:00  INFO 12724 --- [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2025-05-09T10:03:06.359+02:00  INFO 12724 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-09T10:03:06.360+02:00  INFO 12724 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 554 ms
+2025-05-09T10:03:06.434+02:00  INFO 12724 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-09T10:03:06.459+02:00  INFO 12724 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-05-09T10:03:06.478+02:00  INFO 12724 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-09T10:03:06.587+02:00  INFO 12724 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-09T10:03:06.599+02:00  INFO 12724 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-09T10:03:07.626+02:00 ERROR 12724 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
 
 org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:346) ~[postgresql-42.7.3.jar:42.7.3]
@@ -420,7 +420,7 @@ Caused by: java.net.ConnectException: Connection refused
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:262) ~[postgresql-42.7.3.jar:42.7.3]
 	... 140 common frames omitted
 
-2025-05-09T10:00:22.802+02:00  WARN 12063 --- [    Test worker] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
+2025-05-09T10:03:07.646+02:00  WARN 12724 --- [    Test worker] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
 
 java.lang.NullPointerException: Cannot invoke &quot;org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(java.sql.SQLException, String)&quot; because the return value of &quot;org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.sqlExceptionHelper()&quot; is null
 	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
@@ -551,14 +551,14 @@ java.lang.NullPointerException: Cannot invoke &quot;org.hibernate.engine.jdbc.sp
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69) ~[gradle-worker.jar:na]
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74) ~[gradle-worker.jar:na]
 
-2025-05-09T10:00:22.820+02:00  WARN 12063 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-05-09T10:00:22.901+02:00 ERROR 12063 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: Could not determine recommended JdbcType for Java type 'com.example.ai_shopping_cart.domain.CartItem'
-2025-05-09T10:00:22.902+02:00  WARN 12063 --- [    Test worker] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Could not determine recommended JdbcType for Java type 'com.example.ai_shopping_cart.domain.CartItem'
-2025-05-09T10:00:22.903+02:00  INFO 12063 --- [    Test worker] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2025-05-09T10:00:22.909+02:00  INFO 12063 --- [    Test worker] .s.b.a.l.ConditionEvaluationReportLogger : 
+2025-05-09T10:03:07.671+02:00  WARN 12724 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-09T10:03:07.756+02:00 ERROR 12724 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: Could not determine recommended JdbcType for Java type 'com.example.ai_shopping_cart.domain.CartItem'
+2025-05-09T10:03:07.756+02:00  WARN 12724 --- [    Test worker] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Could not determine recommended JdbcType for Java type 'com.example.ai_shopping_cart.domain.CartItem'
+2025-05-09T10:03:07.758+02:00  INFO 12724 --- [    Test worker] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-05-09T10:03:07.764+02:00  INFO 12724 --- [    Test worker] .s.b.a.l.ConditionEvaluationReportLogger : 
 
 Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2025-05-09T10:00:22.916+02:00 ERROR 12063 --- [    Test worker] o.s.boot.SpringApplication               : Application run failed
+2025-05-09T10:03:07.771+02:00 ERROR 12724 --- [    Test worker] o.s.boot.SpringApplication               : Application run failed
 
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Could not determine recommended JdbcType for Java type 'com.example.ai_shopping_cart.domain.CartItem'
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786) ~[spring-beans-6.1.6.jar:6.1.6]
@@ -693,9 +693,9 @@ Caused by: org.hibernate.type.descriptor.java.spi.JdbcTypeRecommendationExceptio
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-6.1.6.jar:6.1.6]
 	... 106 common frames omitted
 
-2025-05-09T10:00:22.921+02:00  WARN 12063 --- [    Test worker] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener] to prepare test instance [com.example.ai_shopping_cart.AddItemToCartIntegrationTest@778197c0]
+2025-05-09T10:03:07.776+02:00  WARN 12724 --- [    Test worker] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener] to prepare test instance [com.example.ai_shopping_cart.AddItemToCartIntegrationTest@300aa927]
 
-java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@4e647f39 testClass = com.example.ai_shopping_cart.AddItemToCartIntegrationTest, locations = [], classes = [com.example.ai_shopping_cart.AiShoppingCartApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceDescriptors = [], propertySourceProperties = [&quot;org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true&quot;, &quot;server.port=0&quot;], contextCustomizers = [org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@241e8ea6, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3bcbb589, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@6c45ee6e, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5911e990, org.springframework.boot.test.context.SpringBootTestAnnotation@8711ffe5], resourceBasePath = &quot;src/main/webapp&quot;, contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@199806aa testClass = com.example.ai_shopping_cart.AddItemToCartIntegrationTest, locations = [], classes = [com.example.ai_shopping_cart.AiShoppingCartApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceDescriptors = [], propertySourceProperties = [&quot;org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true&quot;, &quot;server.port=0&quot;], contextCustomizers = [org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@241e8ea6, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3bcbb589, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@6c45ee6e, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5911e990, org.springframework.boot.test.context.SpringBootTestAnnotation@8711ffe5], resourceBasePath = &quot;src/main/webapp&quot;, contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:180) ~[spring-test-6.1.6.jar:6.1.6]
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130) ~[spring-test-6.1.6.jar:6.1.6]
 	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:142) ~[spring-test-6.1.6.jar:6.1.6]
@@ -881,7 +881,7 @@ Unconditional classes:
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="https://www.gradle.org">Gradle 8.14</a> at May 9, 2025, 10:00:22 AM</p>
+<a href="https://www.gradle.org">Gradle 8.14</a> at May 9, 2025, 10:03:07 AM</p>
 </div>
 </div>
 </body>
