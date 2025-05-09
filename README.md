@@ -18,8 +18,7 @@ The purpose of this project is to demonstrate a basic implementation of a shoppi
 
 1.  Clone the repository to your local machine.
 2.  Navigate to the project directory.
-3.  Build the Docker image: `docker build -t ai-shopping-cart .`
-4.  Run the Docker container: `docker run -p 8080:8080 ai-shopping-cart`
+3.  Run the application and database using Docker Compose: `docker-compose up`
 
 The project structure is organized as follows:
 
