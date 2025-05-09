@@ -1,5 +1,7 @@
 package com.example.ai_shopping_cart.domain;
 
+import jakarta.persistence.Column;
+import jakarta.persistence.Embeddable;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
@@ -40,7 +42,10 @@ public class Cart {
         return items.stream().mapToDouble(item -> item.getPrice() * item.getQuantity()).sum();
     }
 
+    @Embeddable
     public static class CartId {
+        @Id
+        @Column(name = "cart_id")
         private UUID id;
 
         public CartId(UUID id) {
